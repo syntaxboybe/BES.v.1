@@ -1,0 +1,2 @@
+<div class="title-container"><a class="navbar-brand" href="#" style="font-size: 45px;font-family: Source Sans Pro, sans-serif;"><img src="{{ URL::asset('images/poblacionlogo.png') }}" style="resize: both;width: 100px;margin-left: 15px; margin-top: 15px;"><p class="navbar-brand" id="client_header_login" style="font-size: 23px;">{{ $image->barangay_name ?? 'Barangay Poblacion E-service System' }}</p></a>
+        </div>
