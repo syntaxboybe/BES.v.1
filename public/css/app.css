@@ -23097,7 +23097,7 @@ span.align {
 }
 
 .dashboard-box {
-  background-color: (16, 71, 143);
+  background-color: rgb(16, 71, 143);
   border: 1px solid;
   height: 120px !important;
   text-align: center;
