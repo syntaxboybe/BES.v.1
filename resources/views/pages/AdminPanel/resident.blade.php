@@ -186,14 +186,9 @@
                     <div class="col-sm-6">
                         <div class="row" style="margin-left: 0px;margin-right: 0px;">
                             <div class="col-sm-6" >
-                              <label >Height</label>
-                              <input type="number" class="form-control" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" name="height" id="height" placeholder="" value="0" required="">
-                              <span id="height_err" class="text-danger error-text height_err"></span>
-                            </div>
-                            <div class="col-sm-6 ">
-                              <label >Weight</label>
-                              <input type="number" class="form-control" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" name="weight" id="weight" placeholder="" value="0" required="">
-                              <span id="weight_err" class="text-danger error-text weight_err"></span>
+                            <label >Religion</label>
+                              <input type="text" class="form-control" name="religion" id="religion" placeholder="Ex: Roman Catholic" value="" required="">
+                              <span id="religion_err" class="text-danger error-text religion_err"></span>
                             </div>
                           </div>
 
