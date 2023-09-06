@@ -166,7 +166,7 @@ return [
         /*
          * Package Service Providers...
          */
-
+        \Chatify\ChatifyServiceProvider::class,
         /*
          * Application Service Providers...
          */
@@ -231,7 +231,7 @@ return [
         'DataTables' => Yajra\DataTables\Facades\DataTables::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
         'Debugbar' => Barryvdh\Debugbar\Facades\Debugbar::class,
-
+        'Chatify' => Chatify\Facades\ChatifyMessenger::class,
 
     ],
 
