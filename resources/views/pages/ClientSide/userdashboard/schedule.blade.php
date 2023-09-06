@@ -114,7 +114,7 @@
             </div>
          </div>
       </div>
-      <footer class="footer-clean" style="background-color: gray;position: absolute;left: 0;bottom: 0;height: 174px;width: 100%;overflow: hidden;margin-top: 30px;">
+      <footer class="footer-clean" style="background-color: #21a9af;position: absolute;left: 0;bottom: 0;height: 174px;width: 100%;overflow: hidden;margin-top: 30px;">
          <div class="container">
             <div class="row justify-content-center">
                <div class="col-sm-4 col-md-3 item">
