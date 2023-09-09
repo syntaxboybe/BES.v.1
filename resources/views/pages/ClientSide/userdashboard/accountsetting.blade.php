@@ -96,7 +96,7 @@
                             <div class="row" style="margin-left: 0px;margin-right: 0px;">
                             <div class="col-sm-6" >
                               <label >Religion</label>
-                              <input type="text" class="form-control" name="religion" id="religion" placeholder="Ex: INC" value="" required="">
+                              <input type="text" class="form-control" name="religion" id="religion" placeholder="Ex: Roman Catholic" value="" required="">
                               <span id="religion_err" class="text-danger error-text religion_err"></span>
                             </div>
                 </div>
