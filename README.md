@@ -1,10 +1,10 @@
 # Barangay E-service System in Poblacion Naawan(BES)
 
-<h3>🎯 OVERVIEW</h3>
+# 🎯 OVERVIEW
 
 A Capstone Project in progress for the fulfillment of the requirements of the degree of Bachelor of Science in Information Technology. This project aims to provide a web application system for the barangay to make their services more accessible to the residents. Also this application can generate statistical records such as total population of the Barangay, total voters registered on the Barangay, reported offense against the law, health reports and employed and unemployed citizens. This project is developed using Laravel PHP Framework, MySQL, HTML, CSS, JavaScript, Jquery, Ajax, and Bootstrap.
 
-<h3>⚒ ADMIN FEATURES:</h3>
+# ⚒ ADMIN FEATURES:
 
 **⚙️ Login Module** – This is the module where system administrator will enter their system credentials in order to gain access to the barangay management system data.
 
@@ -22,7 +22,7 @@ A Capstone Project in progress for the fulfillment of the requirements of the de
 
 **⚙️ Account Module – This module** is composed of five features such as account setting, create account, manage account, manage resident account and session history.
 
-<h3>⚒ FRONTEND FEATURES:</h3>
+# ⚒ FRONTEND FEATURES:
 
 **⚙️ Login Feature** – This is the Feature where the user will enter their system credentials in order to gain access to the barangay management system features.
 
@@ -34,9 +34,9 @@ A Capstone Project in progress for the fulfillment of the requirements of the de
 
 **⚙️ Certificate Request Form** – The certificate request form where the user can request all kind of certificate in the barangay through online processing.
 
-<h3>LIST OF FUNCTIONALITES PER END-USER</h3>
+# ⚒ LIST OF FUNCTIONALITES PER END-USER:
 
-<h4>👫 Resident(Citizen)</h4>    
+# 👫 Resident(Citizen)
 
 ⚙️ can create account, request certificates and securely login to the application
 
@@ -46,7 +46,7 @@ A Capstone Project in progress for the fulfillment of the requirements of the de
 
 ⚙️ can delete or edit information
  
-<h4>👩‍⚖️ Admin(Secretary)</h4>
+# 👩‍⚖️ Admin(Secretary)
 
 ⚙️ can create or add resident profile, new staff user account, blotter records, certificate issuances   
 
@@ -58,11 +58,10 @@ A Capstone Project in progress for the fulfillment of the requirements of the de
 
 ⚙️ can manage resident accounts and admin user account
 
-<h4>👨‍🔧 Staff(Encoder)</h4> 
+# 👨‍🔧 Staff(Encoder) 
 
 ⚙️ can create or add resident profile, new staff user account, blotter records, certificate issuances   
 
 ⚙️ can read or view resident information, dashboard statistics, blotter informations and reports, settlement schedules and certificate request
 
 ⚙️ can update or edit resident information, settlement schedule status, certificate request status
- 
