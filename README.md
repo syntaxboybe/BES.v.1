@@ -34,7 +34,7 @@ A Capstone Project in progress for the fulfillment of the requirements of the de
 
 **⚙️ Certificate Request Form** – The certificate request form where the user can request all kind of certificate in the barangay through online processing.
 
-# ⚒ List Of Functions per End User:
+# ⚒ List of Function / user end:
 
 # 👫 Resident(Citizen)
 
