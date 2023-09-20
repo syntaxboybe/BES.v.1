@@ -196,7 +196,7 @@
                             <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Email
                             </label>
                             <div class="col-md-12 col-sm-12 ">
-                               <input type="email" id="email" name="email" required="required" placeholder="Ex: abc@gmail.com" class="form-control ">
+                               <input type="email" id="email" name="email" placeholder="Ex: abc@gmail.com" class="form-control ">
                                <span id="email_err" class="text-danger error-text email_err"></span>
                             </div>
                          </div>
