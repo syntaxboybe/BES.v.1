@@ -36,7 +36,7 @@
             <div class="rounded shadow-lg border border-secondary p-4" style="font-size: 20px">
 
                 <div class="alert alert-success" id="success_msg">
-                  
+
                 </div>
 
 
@@ -180,17 +180,17 @@
                 <div class="form-row p-3">
                     <div class="form-group col-md-12">
                         <label for="resident_accountsetting_father">Father's Name</label>
-                        <input type="text" class="form-control" name="resident_accountsetting_father" id="resident_accountsetting_father" placeholder="N/A">
+                        <input type="text" class="form-control" name="resident_accountsetting_father" id="resident_accountsetting_father" placeholder="">
                     </div>
 
                     <div class="form-group col-md-12">
                         <label for="resident_accountsetting_mother">Mother's Name</label>
-                        <input type="text" class="form-control" name="resident_accountsetting_mother" id="resident_accountsetting_mother" placeholder="N/A">
+                        <input type="text" class="form-control" name="resident_accountsetting_mother" id="resident_accountsetting_mother" placeholder="">
                     </div>
 
                     <div class="form-group col-md-12">
                         <label for="resident_accountsetting_spouse">Spouse</label>
-                        <input type="text" class="form-control" name="resident_accountsetting_spouse" id="resident_accountsetting_spouse" placeholder="N/A">
+                        <input type="text" class="form-control" name="resident_accountsetting_spouse" id="resident_accountsetting_spouse" placeholder="">
                     </div>
 
                 </div>
@@ -222,25 +222,26 @@
                 <div class="form-row p-3">
                     <div class="col-md-12 form-group">
                         <label for="resident_accountsetting_username">Username</label>
-                        <input type="text" id="resident_accountsetting_username" name="resident_accountsetting_username" value="" placeholder="Enter username" class="form-control ">
+                        <input type="text" id="resident_accountsetting_username" name="resident_accountsetting_username" value="" placeholder="Enter username" class="form-control">
+
                         <span class="text-danger error_text resident_accountsetting_username_error" style="text-align:left;font-size:18px;" ></span>
                     </div>
 
                     <div class="col-md-12 form-group">
                         <label for="resident_accountsetting_email">Email</label>
-                        <input type="email" id="resident_accountsetting_email" name="resident_accountsetting_email"  placeholder="Ex: boibee@gmail.com" class="form-control ">
+                        <input type="email" id="resident_accountsetting_email" name="resident_accountsetting_email"  placeholder="Ex: boibee@gmail.com" class="form-control">
                         <span class="text-danger error_text resident_accountsetting_email_error" style="text-align:left;font-size:18px;" ></span>
                     </div>
 
                     <div class="col-md-12 form-group">
                         <label for="resident_accountsetting_newpassword">New password</label>
-                        <input type="password" id="resident_accountsetting_newpassword" name="resident_accountsetting_newpassword"  placeholder="Enter new password" class="form-control " minlength="8">
+                        <input type="password" id="resident_accountsetting_newpassword" name="resident_accountsetting_newpassword"  placeholder="Enter new password" class="form-control" minlength="8">
                         <span class="text-danger error_text resident_accountsetting_newpassword_error" style="text-align:left;font-size:18px;" ></span>
                     </div>
 
                     <div class="col-md-12 form-group">
                         <label for="resident_accountsetting_newpassword_confirmation">Confirm new password</label>
-                        <input type="password" id="resident_accountsetting_newpassword_confirmation" name="resident_accountsetting_newpassword_confirmation"  placeholder="Confirm your password" class="form-control " disabled>
+                        <input type="password" id="resident_accountsetting_newpassword_confirmation" name="resident_accountsetting_newpassword_confirmation"  placeholder="Confirm your password" class="form-control" disabled>
                         <span class="text-danger error_text resident_accountsetting_newpassword_confirmation_error" style="text-align:left;font-size:18px;" ></span>
                     </div>
                 </div>
