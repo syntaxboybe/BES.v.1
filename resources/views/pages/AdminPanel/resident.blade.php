@@ -210,12 +210,12 @@
                           <div class="row" style="margin-left: 0px;margin-right: 0px;">
                            <div class="col-sm-6" >
                              <label >PAG-IBIG</label>
-                             <input type="text" class="form-control" onkeypress="return isNumberKey(event)"  name="PAG_IBIG" id="PAG_IBIG" placeholder="Ex: 1234-5678-9101" maxlength = "14" value="" required="">
+                             <input type="text" class="form-control" onkeypress="return isNumberKey(event)"  name="PAG_IBIG" id="PAG_IBIG" placeholder="Ex: 1234-5678-9101" maxlength = "14" value="">
                              <span id="PAG_IBIG_err" class="text-danger error-text PAG_IBIG_err"></span>
                            </div>
                            <div class="col-sm-6 ">
                              <label >PHILHEALTH</label>
-                             <input type="text" class="form-control" onkeypress="return isNumberKey(event)" name="PHILHEALTH" id="PHILHEALTH" placeholder="Ex: 0028-1215160-9" maxlength = "14" value="" required="">
+                             <input type="text" class="form-control" onkeypress="return isNumberKey(event)" name="PHILHEALTH" id="PHILHEALTH" placeholder="Ex: 0028-1215160-9" maxlength = "14" value="">
                              <span id="PHILHEALTH_err" class="text-danger error-text PHILHEALTH_err"></span>
                            </div>
                          </div>
@@ -224,12 +224,12 @@
                          <div class="row" style="margin-left: 0px;margin-right: 0px;">
                            <div class="col-sm-6" >
                              <label >SSS</label>
-                             <input type="text" class="form-control" onkeypress="return isNumberKey(event)" name="SSS" id="SSS" placeholder="Ex: 04-0751449-0"  maxlength = "12" value="" required="">
+                             <input type="text" class="form-control" onkeypress="return isNumberKey(event)" name="SSS" id="SSS" placeholder="Ex: 04-0751449-0"  maxlength = "12" value="">
                              <span id="SSS_err" class="text-danger error-text SSS_err"></span>
                            </div>
                            <div class="col-sm-6 ">
                              <label >TIN</label>
-                             <input type="text" class="form-control" onkeypress="return isNumberKey(event)" name="TIN" id="TIN" placeholder="Ex: 123-456-789-000" maxlength = "15" value="" required="">
+                             <input type="text" class="form-control" onkeypress="return isNumberKey(event)" name="TIN" id="TIN" placeholder="Ex: 123-456-789-000" maxlength = "15" value="">
                              <span id="TIN_err" class="text-danger error-text TIN_err"></span>
                            </div>
                          </div>
