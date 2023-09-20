@@ -2,7 +2,7 @@
 
 # 🎯 OVERVIEW
 
-A Capstone Project in progress for the fulfillment of the requirements of the degree of Bachelor of Science in Information Technology. This project aims to provide a web application system for the barangay to make their services more accessible to the residents. Also this application can generate statistical records such as total population of the Barangay, total voters registered on the Barangay, reported offense against the law, health reports and employed and unemployed citizens. This project is developed using Laravel Blade as Frontend and LaravelLaravel PHP Framework as Backend. Together with other programming languages such as HTML, CSS, JavaScript, Bootstrap, jQuery and Ajax.
+A Capstone Project in progress for the fulfillment of the requirements of the degree of Bachelor of Science in Information Technology. This project aims to provide a web application system for the barangay to make their services more accessible to the residents. Also this application can generate statistical records such as total population of the Barangay, total voters registered on the Barangay, reported offense against the law, health reports and employed and unemployed citizens. This project is developed using Laravel Blade as Frontend and Laravel PHP Framework as Backend. Together with other programming languages such as HTML, CSS, JavaScript, Bootstrap, jQuery and Ajax.
 
 # ⚒ Admin Features:
 
@@ -40,15 +40,15 @@ A Capstone Project in progress for the fulfillment of the requirements of the de
 
 ⚙️ can create account, request certificates and securely login to the application
 
-⚙️ can read or view blotter records, local news, schedules and announcements 
+⚙️ can read or view blotter records, local news, schedules and announcements
 
-⚙️ can update or edit personal information 
+⚙️ can update or edit personal information
 
 ⚙️ can delete or edit information
- 
+
 # 👩‍⚖️ Admin(Secretary)
 
-⚙️ can create or add resident profile, new staff user account, blotter records, certificate issuances   
+⚙️ can create or add resident profile, new staff user account, blotter records, certificate issuances
 
 ⚙️ can read or view resident information, dashboard statistics, blotter informations and reports, settlement schedules and certificate request
 
@@ -58,9 +58,9 @@ A Capstone Project in progress for the fulfillment of the requirements of the de
 
 ⚙️ can manage resident accounts and admin user account
 
-# 👨‍🔧 Staff(Encoder) 
+# 👨‍🔧 Staff(Encoder)
 
-⚙️ can create or add resident profile, new staff user account, blotter records, certificate issuances   
+⚙️ can create or add resident profile, new staff user account, blotter records, certificate issuances
 
 ⚙️ can read or view resident information, dashboard statistics, blotter informations and reports, settlement schedules and certificate request
 
