@@ -2,7 +2,7 @@
 
 # 🎯 OVERVIEW
 
-A Capstone Project in progress for the fulfillment of the requirements of the degree of Bachelor of Science in Information Technology. This project aims to provide a web application system for the barangay to make their services more accessible to the residents. Also this application can generate statistical records such as total population of the Barangay, total voters registered on the Barangay, reported offense against the law, health reports and employed and unemployed citizens. This project is developed using Laravel PHP Framework, MySQL, HTML, CSS, JavaScript, Jquery, Ajax, and Bootstrap.
+A Capstone Project in progress for the fulfillment of the requirements of the degree of Bachelor of Science in Information Technology. This project aims to provide a web application system for the barangay to make their services more accessible to the residents. Also this application can generate statistical records such as total population of the Barangay, total voters registered on the Barangay, reported offense against the law, health reports and employed and unemployed citizens. This project is developed using Laravel Blade as Frontend and LaravelLaravel PHP Framework as Backend. Together with other programming languages such as HTML, CSS, JavaScript, Bootstrap, jQuery and Ajax.
 
 # ⚒ Admin Features:
 
