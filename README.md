@@ -56,7 +56,7 @@ A Capstone Project in progress for the fulfillment of the requirements of the de
 
 ⚙️ can delete or edit accounts, residents information, certificate requests, blotter records, reset settlement schedules, official committe lists
 
-⚙️ can manage resident accounts and admin user account
+⚙️ can manage resident accounts, staff user accounts and resident profiles
 
 # 👨‍🔧 Staff(Encoder)
 
