@@ -17,7 +17,7 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
   <script>
-    
+
   </script>
 
   <title>Login</title>
@@ -26,7 +26,7 @@
 
 @include('inc.client_nav_login')
 
-<div class="container mt-5">  
+<div class="container mt-5">
   <div class="row justify-content-center" >
     <div class="col-sm-9 col-md-7 col-lg-7">
       <div class="card card-signin my-5">
@@ -36,9 +36,9 @@
             {{ session()->get("success_register")}}
           </div>
           @endif
-          <h5 class="card-title text-center">Resident Login</h5>
+          <h5 class="card-title text-center"><b>Resident Login</b></h5>
           {{-- form --}}
-          <form class="log-in-form" action="/barangay/login" method="post"> 
+          <form class="log-in-form" action="/barangay/login" method="post">
             @csrf
             <div class="form-label-group mt-2">
               <label for="client_login_username"></label>
@@ -55,16 +55,16 @@
               @error('client_login_password')
               <span class="text-danger error_text create_account_form_lastname_error">{{ $message }}</span>
               @enderror
-              <br><a href="/barangay/forgot_password">FORGOT YOUR PASSWORD?</a>
+              <br><a href="/barangay/forgot_password"><b>FORGOT YOUR PASSWORD?</b></a>
             </div>
 
-            <button class="btn btn-lg btn-success btn-block text-uppercase mt-3" id="clientLoginBtn" type="submit">Log in</button>
+            <button class="btn btn-lg btn-success btn-block text-uppercase mt-3" id="clientLoginBtn" type="submit"><b>Log in</b></button>
           </form>
           {{-- end form --}}
 
 
-          <br><a href="/barangay/register">CAN'T SIGN IN? CREATE ACCOUNT</a>
-          <br><a href="/login">GO TO ADMIN LOGIN> </a>
+          <br><a href="/barangay/register"><b>CAN'T SIGN IN? CREATE ACCOUNT</b></a>
+          <br><a href="/login"><b>GO TO ADMIN LOGIN></b></a>
         </div>
       </div>
       <br><br><br><br>

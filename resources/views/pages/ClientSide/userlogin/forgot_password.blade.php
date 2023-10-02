@@ -17,7 +17,7 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
   <script>
-    
+
   </script>
 
   <title>Forgot Password</title>
@@ -36,11 +36,11 @@
             {{ session()->get("success_register")}}
           </div>
           @endif
-          <h5 class="card-title text-center">Message</h5>
+          <h5 class="card-title text-center"><b>Message</b></h5>
           <p>Please contact the barangay to have a new password. Sorry for the inconvenience.</p>
 
-          <br><a href="/barangay/register">Don't have an account? Register!</a>
-          <br><a href="/barangay/login">Back to login page></a>
+          <br><a href="/barangay/register"><b>Don't have an account? Register!</b></a>
+          <br><a href="/barangay/login"><b>Back to login page></b></a>
         </div>
       </div>
       <br><br><br><br>
