@@ -27,13 +27,13 @@
     <div class="col-sm-9 col-md-7 col-lg-5">
       <div class="card card-signin my-5">
         <div class="card-body">
-          <h5 class="card-title text-center">Register</h5>
+          <h5 class="card-title text-center"><b>Register</b></h5>
           {{-- form --}}
           <form class="register-form" action="/barangay/register" method="post">
             @csrf
             <div class="form-label-group mt-2">
               <label for="register_firstname"></label>
-              <input type="text" id="register_firstname" name="register_firstname" class="form-control" placeholder="FIRST NAME" 
+              <input type="text" id="register_firstname" name="register_firstname" class="form-control" placeholder="FIRST NAME"
               value={{ old('register_firstname')}}>
               @error('register_firstname')
               <span class="text-danger error_text"> {{ $message }}</span>
@@ -42,7 +42,7 @@
             {{-- lastname --}}
             <div class="form-label-group mt-2">
               <label for="register_lastname"></label>
-              <input type="text" id="register_lastname" name="register_lastname" class="form-control" placeholder="LAST NAME" 
+              <input type="text" id="register_lastname" name="register_lastname" class="form-control" placeholder="LAST NAME"
               value={{ old('register_lastname')}}>
               @error('register_lastname')
               <span class="text-danger error_text"> {{ $message }}</span>
@@ -52,7 +52,7 @@
             {{-- username --}}
             <div class="form-label-group mt-2">
               <label for="register_username"></label>
-              <input type="text" id="register_username" name="register_username" class="form-control" placeholder="USERNAME" 
+              <input type="text" id="register_username" name="register_username" class="form-control" placeholder="USERNAME"
               value={{ old('register_username')}}>
               @error('register_username')
               <span class="text-danger error_text"> {{ $message }}</span>
@@ -90,7 +90,7 @@
             {{-- email address --}}
             <div class="form-label-group mt-2">
               <label for="register_email"></label>
-              <input type="text" id="register_email" name="register_email" class="form-control" placeholder="EMAIL ADDRESS" 
+              <input type="text" id="register_email" name="register_email" class="form-control" placeholder="EMAIL ADDRESS"
               value={{ old('register_email')}}>
               @error('register_email')
               <span class="text-danger error_text"> {{ $message }}</span>
@@ -115,11 +115,11 @@
               @enderror
             </div>
 
-            <button class="btn btn-lg btn-primary btn-block text-uppercase mt-3" id="registerBtn" type="submit">Confirm Registration</button>
+            <button class="btn btn-lg btn-primary btn-block text-uppercase mt-3" id="registerBtn" type="submit"><b>Confirm Registration</b></button>
           </form>
           {{-- end form --}}
 
-          <br><a href="/barangay/login">HAVE AN ACCOUNT? LOGIN!</a>
+          <br><a href="/barangay/login"><b>HAVE AN ACCOUNT? LOGIN!</b></a>
         </div>
       </div>
     </div>
@@ -130,7 +130,7 @@
       $(function() {
         var old_gender = $("#register_gender").data("old");
         var old_voter_status = $("#register_voter_status").data("old");
-        
+
         $("#register_gender").val(old_gender);
         $("#register_voter_status").val(old_voter_status);
       })
