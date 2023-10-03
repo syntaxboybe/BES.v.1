@@ -33,7 +33,7 @@
             @csrf
             <div class="form-label-group mt-2">
               <label for="register_firstname"></label>
-              <input type="text" id="register_firstname" name="register_firstname" class="form-control" placeholder="FIRST NAME"
+              <input type="text" id="register_firstname" name="register_firstname" class="form-control" placeholder="First Name"
               value={{ old('register_firstname')}}>
               @error('register_firstname')
               <span class="text-danger error_text"> {{ $message }}</span>
@@ -42,7 +42,7 @@
             {{-- lastname --}}
             <div class="form-label-group mt-2">
               <label for="register_lastname"></label>
-              <input type="text" id="register_lastname" name="register_lastname" class="form-control" placeholder="LAST NAME"
+              <input type="text" id="register_lastname" name="register_lastname" class="form-control" placeholder="Last Name"
               value={{ old('register_lastname')}}>
               @error('register_lastname')
               <span class="text-danger error_text"> {{ $message }}</span>
@@ -52,7 +52,7 @@
             {{-- username --}}
             <div class="form-label-group mt-2">
               <label for="register_username"></label>
-              <input type="text" id="register_username" name="register_username" class="form-control" placeholder="USERNAME"
+              <input type="text" id="register_username" name="register_username" class="form-control" placeholder="Username"
               value={{ old('register_username')}}>
               @error('register_username')
               <span class="text-danger error_text"> {{ $message }}</span>
@@ -63,9 +63,9 @@
             <div class="form-label-group mt-2">
               <label for="register_gender"></label>
               <select class="form-control" id="register_gender" name="register_gender" data-old="{{ old('register_gender')}}">
-                <option value="">-SELECT GENDER-</option>
-                <option value="Male">MALE</option>
-                <option value="Female">FEMALE</option>
+                <option value="">-Select Gender-</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
             </select>
 
               @error('register_gender')
@@ -77,9 +77,9 @@
             <div class="form-label-group mt-2">
               <label for="register_voter_status"></label>
               <select class="form-control" id="register_voter_status" name="register_voter_status" data-old="{{ old('register_voter_status')}}">
-                <option value="">-VOTER STATUS-</option>
-                <option value="Yes">YES</option>
-                <option value="No">NO</option>
+                <option value="">-Voter Status-</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
               </select>
 
               @error('register_voter_status')
@@ -90,7 +90,7 @@
             {{-- email address --}}
             <div class="form-label-group mt-2">
               <label for="register_email"></label>
-              <input type="text" id="register_email" name="register_email" class="form-control" placeholder="EMAIL ADDRESS"
+              <input type="text" id="register_email" name="register_email" class="form-control" placeholder="Email Address"
               value={{ old('register_email')}}>
               @error('register_email')
               <span class="text-danger error_text"> {{ $message }}</span>
@@ -100,7 +100,7 @@
             {{-- password --}}
             <div class="form-label-group mt-2">
               <label for="register_password"></label>
-              <input type="password" id="register_password" name="register_password" class="form-control" placeholder="PASSWORD" >
+              <input type="password" id="register_password" name="register_password" class="form-control" placeholder="Password" >
               @error('register_password')
               <span class="text-danger error_text">{{ $message }}</span>
               @enderror
@@ -109,7 +109,7 @@
             {{-- verify password --}}
             <div class="form-label-group mt-2">
               <label for="register_password_confirmation"></label>
-              <input type="password" id="register_password_confirmation" name="register_password_confirmation" class="form-control" placeholder="RE-ENTER PASSWORD" >
+              <input type="password" id="register_password_confirmation" name="register_password_confirmation" class="form-control" placeholder="Verify Password" >
               @error('register_password_confirmation')
               <span class="text-danger error_text"> {{ $message }}</span>
               @enderror
@@ -119,7 +119,7 @@
           </form>
           {{-- end form --}}
 
-          <br><a href="/barangay/login"><b>HAVE AN ACCOUNT? LOGIN!</b></a>
+          <br><a href="/barangay/login"><b>Already have an account? Login!</b></a>
         </div>
       </div>
     </div>
