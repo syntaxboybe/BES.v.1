@@ -42,7 +42,7 @@
             @csrf
             <div class="form-label-group mt-2">
               <label for="login_username"></label>
-              <input type="text" id="login_username" name="login_username" class="form-control" placeholder="USERNAME" autofocus
+              <input type="text" id="login_username" name="login_username" class="form-control" placeholder="Username" autofocus
               value={{ old('login_username')}}>
               @error('login_email')
               <span class="text-danger error_text create_account_form_lastname_error"> {{ $message }}</span>
@@ -51,7 +51,7 @@
 
             <div class="form-label-group mt-2">
               <label for="login_password"></label>
-              <input type="password" id="login_password" name="login_password" class="form-control" placeholder="PASSWORD" >
+              <input type="password" id="login_password" name="login_password" class="form-control" placeholder="Password" >
               @error('login_password')
               <span class="text-danger error_text create_account_form_lastname_error">{{ $message }}</span>
               @enderror
@@ -60,7 +60,7 @@
             <button class="btn btn-lg btn-primary btn-block text-uppercase mt-3" id="loginBtn" type="submit"><b>Log in</b></button>
           </form>
           {{-- end form --}}
-          <br><a href="/barangay/login"><b>BACK TO RESIDENT LOGIN</b><</a>
+          <br><a href="/barangay/login"><b>Back to Resident Login</b><</a>
         </div>
       </div>
     </div>

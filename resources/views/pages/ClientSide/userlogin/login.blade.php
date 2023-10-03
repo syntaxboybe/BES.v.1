@@ -42,20 +42,24 @@
             @csrf
             <div class="form-label-group mt-2">
               <label for="client_login_username"></label>
-              <input type="text" id="client_login_username" name="client_login_username" class="form-control" placeholder="USERNAME" autofocus
+              <input type="text" id="client_login_username" name="client_login_username" class="form-control" placeholder="Username" autofocus
               value={{ old('client_login_username')}}>
               @error('client_login_username')
               <span class="text-danger error_text create_account_form_lastname_error"> {{ $message }}</span>
               @enderror
             </div>
-
             <div class="form-label-group mt-2">
               <label for="client_login_password"></label>
-              <input type="password" id="client_login_password" name="client_login_password" class="form-control" placeholder="PASSWORD" >
+              <input type="password" id="client_login_password" name="client_login_password" class="form-control" placeholder="Password" >
               @error('client_login_password')
               <span class="text-danger error_text create_account_form_lastname_error">{{ $message }}</span>
               @enderror
-              <br><a href="/barangay/forgot_password"><b>FORGOT YOUR PASSWORD?</b></a>
+
+            <div class="form-group">
+              <label for="checkboxInput">
+              <input id="checkboxInput" type="checkbox">
+            </label> <b> Remember Me!</b>
+              <br><a href="/barangay/forgot_password"><b>Forgot Password?</b></a>
             </div>
 
             <button class="btn btn-lg btn-success btn-block text-uppercase mt-3" id="clientLoginBtn" type="submit"><b>Log in</b></button>
@@ -63,8 +67,8 @@
           {{-- end form --}}
 
 
-          <br><a href="/barangay/register"><b>CAN'T SIGN IN? CREATE ACCOUNT</b></a>
-          <br><a href="/login"><b>GO TO ADMIN LOGIN></b></a>
+          <br><a href="/barangay/register"><b>Can't Sign In? Create Account</b></a>
+          <br><a href="/login"><b>Go to Admin Login></b></a>
         </div>
       </div>
       <br><br><br><br>
