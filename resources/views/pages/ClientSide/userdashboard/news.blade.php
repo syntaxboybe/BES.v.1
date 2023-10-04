@@ -15,7 +15,7 @@
 </head>
 
 <body style="margin: 0 0 169px;">
-    
+
     @include('inc.client_nav')
 
         <div class="  " style="background-color: ;padding-top: 30px;padding-bottom: 10px;">
@@ -23,7 +23,7 @@
                 <div class="row" style="background-color: ;">
                     <div class="col-md-6" style="background-color: rgba(255,255,255,0);padding: 20px;"><img src="{{ URL::to('images/phil.jpg') }}" style="resize: both;width: 500px;height: 400px;"></div>
                     <div class="col-md-6" style="background-color: rgba(255,255,255,0);">
-                        <h4>PUBLIC ADVISORY:</h4>
+                        <h4><b> PUBLIC ADVISORY: </b></h4>
                         <p style="margin: 42px;"><br>&nbsp; &nbsp; &nbsp; &nbsp; PhilHealth will be offering the following free services on Monday, May 22, 2023, 8:00AM at Naawan Municipal Covered Court:<br><br>✅PhilHealth ID Printing<br>✅Member Data Records (MDRs) Printing and Updating<br>✅Orientation on KONSULTASYONG SULIT AT TAMA (PhilHealth Konsulta)<br><br>The LGU is encouraging Naawanons to avail these free services. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                                          <br><br></p>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                     </ul>
                 </div>
                 <div class=""><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a>
-                    <p class="copyright">Barangay E-service System © 2023 </p>
+                    <p class="copyright"><b> Barangay E-service System © 2023 </b></p>
                 </div>
             </div>
         </div>

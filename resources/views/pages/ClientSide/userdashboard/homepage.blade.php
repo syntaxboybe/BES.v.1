@@ -18,7 +18,7 @@
 
 <body style="margin: 0 0 169px;">
     <input type="hidden" id = "current_resident" data-id = {{ session("resident.id") }}>
-    
+
     @include('inc.client_nav')
 
     <div class="container" style="margin-top: 20px;align-items: center;margin-bottom: 70px;">
@@ -77,7 +77,7 @@ Cognizant of our avowed purpose, we commit ourselves to make Misamis Oriental a 
                     </ul>
                 </div>
                 <div class=""><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a>
-                    <p class="copyright">Barangay E-service System © 2023</p>
+                    <p class="copyright"><b> Barangay E-service System © 2023 </b></p>
                 </div>
             </div>
         </div>
@@ -85,5 +85,4 @@ Cognizant of our avowed purpose, we commit ourselves to make Misamis Oriental a 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

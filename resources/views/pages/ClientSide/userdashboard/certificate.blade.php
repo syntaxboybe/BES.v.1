@@ -20,7 +20,7 @@
     <input type="hidden" id = "current_resident" data-id = {{ session("resident.id") }}>
 
     @include('inc.client_nav')
-    
+
     <section class="contact-clean" style="padding-bottom: 140px;">
            <!--FORM-->
         <form action="/barangay/certificate" method="post">
@@ -101,7 +101,7 @@
                     </ul>
                 </div>
                 <div class=""><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a>
-                    <p class="copyright">Barangay E-service System © 2023 </p>
+                    <p class="copyright"><b> Barangay E-service System © 2023 </b></p>
                 </div>
             </div>
         </div>
