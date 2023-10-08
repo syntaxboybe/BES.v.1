@@ -60,11 +60,7 @@
                                  <small class="pl-2"> {{ Carbon\Carbon::parse($request_list->created_at)->toDateString() }}</small>
                                  <hr>
                                  <div class="btn-group">
-                                    <a href="schedule/{{ $request_list->request_id }}" class="btn btn-sm btn-outline-secondary">View</a>
-                                    <form method="get" id="print_form" action="/barangay/schedule/print/{{ $request_list->request_id }}">
-                                       @csrf
-                                       <input hidden name="print_id" value="{{ $request_list->request_id }}">
-                                       <button data-id="{{ $request_list->request_id }}"  id="{{ $request_list->request_id }}" type="button" form="print_form" class="btn btn-sm print-button btn-outline-secondary">Print</button>
+
                                     </form>
                                  </div>
                               </div>
