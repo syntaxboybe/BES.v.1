@@ -36,7 +36,7 @@
             {{ session()->get("success_register")}}
           </div>
           @endif
-          <h5 class="card-title text-center"><b>Resident Login</b></h5>
+          <h5 class="card-title text-center"><b>Login</b></h5>
           {{-- form --}}
           <form class="log-in-form" action="/barangay/login" method="post">
             @csrf
@@ -68,7 +68,7 @@
 
 
           <br><a href="/barangay/register"><b>Can't Sign In? Create Account</b></a>
-          <br><a href="/login"><b>Go to Admin Login></b></a>
+          <br><a href="/login"><b>Go to System Login></b></a>
         </div>
       </div>
       <br><br><br><br>
