@@ -29,19 +29,7 @@
    <div class="col-sm-3 form-group text-center dashboard-box">
       <h5 class="mb-3" >Non-Registered Voter</h5>
       <h1 class="">{{ $nonvoter ?? '0'}}</h1>
-   </div>
-   <div class="col-sm-3 form-group text-center dashboard-box">
-      <h5 class="mb-3" >Youth</h5>
-      <h1 class="">{{ $youth ?? '0'}}</h1>
-   </div>
-   <div class="col-sm-3 form-group text-center dashboard-box">
-      <h5 class="mb-3" >Senior Citizen</h5>
-      <h1 class="">{{ $senior_citizen ?? '0'}}</h1>
-   </div>
-   <div class="col-sm-3 form-group text-center dashboard-box">
-      <h5 class="mb-3" >Infant</h5>
-      <h1 class="">{{ $infant ?? '0'}}</h1>
-   </div>
+
    <div class="col-sm-12 border border-bot ">
    </div>
 </div>
