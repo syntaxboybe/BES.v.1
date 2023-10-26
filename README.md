@@ -2,7 +2,7 @@
 
 # 🎯 OVERVIEW
 
-A Capstone Project in progress for the fulfillment of the requirements of the degree of Bachelor of Science in Information Technology. This project aims to provide a web application system for the barangay to make their services more accessible to the residents. Also this application can generate statistical records such as total population of the Barangay, total voters registered on the Barangay, reported offense against the law. This project is developed using Laravel Blade as Frontend and Laravel PHP Framework as Backend. Together with other programming languages such as HTML, CSS, JavaScript, Bootstrap, jQuery and Ajax.
+A Capstone Project in progress for the fulfillment of the requirements of the degree of Bachelor of Science in Information Technology. This project aims to provide a web application system for the barangay to make their services more accessible to the residents. Also this application can generate statistical records such as total population of the Barangay, total voters registered on the Barangay, reported offense against the law. This project is developed using Laravel Blade as Frontend and Laravel PHP Framework as Backend. Together with other programming languages and plugins such as HTML, CSS, JavaScript, Bootstrap, jQuery, ajax and MySQL.
 
 # ⚒ Admin Features:
 
@@ -36,32 +36,48 @@ A Capstone Project in progress for the fulfillment of the requirements of the de
 
 # ⚒ List of Functions per-end user:
 
-# 👫 Resident(Citizen)
+# 👫 RESIDENT (Citizen)
 
-⚙️ can create account, request certificates and securely login to the application
+⚙️ use account
 
-⚙️ can read or view blotter records, local news, schedules and announcements
+⚙️ request certificates
 
-⚙️ can update or edit personal information
+⚙️ track progress
 
-⚙️ can delete or edit information
+⚙️ additional features
+    - view announcements
+    - view local news
 
-# 👩‍⚖️ Admin(Secretary)
 
-⚙️ can create or add resident profile, new staff user account, blotter records, certificate issuances
+# 👩‍⚖️ STAFF (Secretary)
 
-⚙️ can read or view resident information, dashboard statistics, blotter informations and reports, settlement schedules and certificate request
+⚙️ accept requests such as certification and blotter
 
-⚙️ can update or edit resident information, settlement schedule status, certificate request status
+⚙️ accept payments through on site
 
-⚙️ can delete or edit accounts, residents information, certificate requests, blotter records, reset settlement schedules, official committe lists
+⚙️ view statistics
 
-⚙️ can manage resident accounts, staff user accounts and resident profiles
+⚙️ profiling
 
-# 👨‍🔧 Staff(Encoder)
+⚙️ add resident profile
 
-⚙️ can create or add resident profile, new staff user account, blotter records, certificate issuances
+⚙️ update resident accounts
 
-⚙️ can read or view resident information, dashboard statistics, blotter informations and reports, settlement schedules and certificate request
+⚙️ view request progress
 
-⚙️ can update or edit resident information, settlement schedule status, certificate request status
+
+# 👨‍🔧 BARANGAY CHAIRMAN (captain)
+
+⚙️ approval or disapproval request
+
+⚙️ view statistics
+    - blotter
+    - population rate
+    - profile
+    - income
+
+# 🧑🏻‍🔧 SYSTEM ADMIN (system personnel)
+
+⚙️ create account for resident and employee one time or one at a time
+⚙️ reset password
+    - accounts, settings and configurations
