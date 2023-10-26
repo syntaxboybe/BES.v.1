@@ -45,8 +45,10 @@ A Capstone Project in progress for the fulfillment of the requirements of the de
 ⚙️ track progress
 
 ⚙️ additional features
-    - view announcements
-    - view local news
+
+- view announcements
+
+- view local news
 
 
 # 👩‍⚖️ STAFF (Secretary)
@@ -66,18 +68,24 @@ A Capstone Project in progress for the fulfillment of the requirements of the de
 ⚙️ view request progress
 
 
-# 👨‍🔧 BARANGAY CHAIRMAN (captain)
+# 👨‍⚖️ BARANGAY CHAIRMAN (captain)
 
 ⚙️ approval or disapproval request
 
 ⚙️ view statistics
-    - blotter
-    - population rate
-    - profile
-    - income
 
-# 🧑🏻‍🔧 SYSTEM ADMIN (system personnel)
+- blotter
+  
+- population rate
+
+- profile
+
+- income
+
+# 👨‍🔧 SYSTEM ADMIN (system personnel)
 
 ⚙️ create account for resident and employee one time or one at a time
+
 ⚙️ reset password
-    - accounts, settings and configurations
+
+- accounts, settings and configurations
