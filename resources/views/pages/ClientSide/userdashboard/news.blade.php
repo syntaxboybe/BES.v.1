@@ -18,120 +18,52 @@
 
     @include('inc.client_nav')
 
-        <div class="  " style="background-color: ;padding-top: 30px;padding-bottom: 10px;">
-            <div class="container" style="padding-bottom: 20px;background-color: ;">
-                <div class="row" style="background-color: ;">
-                    <div class="col-md-6" style="background-color: rgba(255,255,255,0);padding: 20px;"><img src="{{ URL::to('images/phil.jpg') }}" style="resize: both;width: 500px;height: 400px;"></div>
+    <div class="  " style="background-color: ; padding-top: 30px;padding-bottom: 10px;">
+            <div class="container" style="padding-bottom: 20px;background-color: #21a9af;">
+                <div class="row" style="background-color: #21a9af;">
+                    <div class="col-md-6" style="background-color: rgba(255,255,255,0);padding: 20px;"><img src="{{ URL::to('images/citizen_charter.png') }}" style="resize: both;width: 500px;height: 400px;"></div>
                     <div class="col-md-6" style="background-color: rgba(255,255,255,0);">
-                        <h4><b> PUBLIC ADVISORY: </b></h4>
-                        <p style="margin: 42px;"><br>&nbsp; &nbsp; &nbsp; &nbsp; PhilHealth will be offering the following free services on Monday, May 22, 2023, 8:00AM at Naawan Municipal Covered Court:<br><br>✅PhilHealth ID Printing<br>✅Member Data Records (MDRs) Printing and Updating<br>✅Orientation on KONSULTASYONG SULIT AT TAMA (PhilHealth Konsulta)<br><br>The LGU is encouraging Naawanons to avail these free services. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                                          <br><br></p>
+                    <br>
+                    <h4><b> <center>📢PUBLIC ADVISORY: </center></b></h4>
+                        <p style="margin: 30px;"><br> The Citizens Charter of the Poblacion of Naawan offers the services provided:
+                        <br>
+                        <br>📌 <strong>Issuance of the Barangay Certificate</strong>
+                        <br>📌 <strong>Issuance of the Barangay Clearance</strong>
+                        <br>📌 <strong>Issuance of the Barangay Permit</strong>
+                        <br>📌 <strong>Issuance of the Barangay Business Clearance</strong>
+                        <br>📌 <strong>Filling a Dispute</strong>
+                        <br>📌 <strong>Violence against Women and Children</strong>
+                        <br><br><strong>🔔Remember:</strong> <br> Only <strong>Barangay of Certification of Indigency</strong> has no payment. </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="   " style="background-color:  ;">
-            <div class="container" style="padding-bottom: 20px;background-color: ;">
-                <div class="row" style="background-color: ;">
-                    <div class="col-md-6" style="background-color: ;">
-                        <h4><br></h4>
-                        <p style="margin: 42px;"><br>&nbsp; &nbsp; &nbsp; &nbsp; <br><br></p>
+        <div class="  " style="background-color: ; padding-top: 30px;padding-bottom: 10px;">
+            <div class="container" style="padding-bottom: 20px;background-color: #21a9af;">
+                <div class="row" style="background-color: #21a9af;">
+                    <br>
+                    <div class="col-md-6" style="background-color: rgba(255,255,255,0);padding: 20px;"> <h4><b> 📋PREREQUISITES! </></b></h4>
+                        <p style="margin: 10px;"> <strong>Services Provided:</strong>
+                        <br>
+                        <br>📌 <strong>Issuance of the Barangay Certificate</strong>
+                        <br>✅ step 1: Secure Proof of Residency
+                        <br>✅ step 2: Present Proof of Residency to the Barangay Office
+                        <br>✅ step 3: Secure Community Tax Certificate/Cedula
+                        <br>✅ step 4: Secure Official Reciept
+                        <br>✅ step 5: Barangay Clearance Authentication and Issuance
+                        <br>
+                        <br>📌 <strong>Issuance of the Barangay Clearance</strong>
+                        <br>📌 <strong>Issuance of the Barangay Permit</strong>
+                        <br>📌 <strong>Issuance of the Barangay Business Clearance</strong>
+                        <br>📌 <strong>Filling a Dispute</strong>
+                        <br>📌 <strong>Violence against Women and Children</strong>
+                        <br><br><strong>🔔Remember:</strong> <br> Only <strong>Barangay of Certification of Indigency</strong> has no payment. </p>
                     </div>
                     <div
                 </div>
             </div>
         </div>
     </div>
-    <footer class="footer-clean" style="background-color: #21a9af;position: absolute;left: 0;bottom: 0;height: 174px;width: 100%;overflow: hidden;margin-top: 30px;">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-4 col-md-3 item">
-                    <h3></h3>
-                    <ul>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 col-md-3 item">
-                    <h3></h3>
-                    <ul>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 col-md-3 item">
-                    <h3></h3>
-                    <ul>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
-                </div>
-                <div class=""><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a>
-                    <p class="copyright"><b> Barangay E-service System © 2023 </b></p>
-                </div>
-            </div>
-        </div>
-        <div style="margin: 30px;margin-bottom: 80px;">
-            <div class=" " style="margin-bottom: 175px;">
-                <div class=" " style="margin: 0 auto;color: white;padding: 15px;border-radius: 25px;margin-bottom: 10px;">
-                    <div class="row justify-content-center">
-                        <div class="col col-5">
-                            <div>
-                                <div class="row">
-                                    <div class="col col-5">
-                                        <h4 style="text-align: right;font-family: times new roman;"> </h4>
-                                    </div>
-                                    <div class="col">
-                                        <h4 style="text-align: left;font-family: times new roman;"> </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-5">
-                            <div>
-                                <div class="row">
-                                    <div class="col col-2">
-                                        <h4 style="text-align: right;font-family: times new roman;"> </h4>
-                                    </div>
-                                    <div class="col col-5">
-                                        <h4 style="text-align: left;font-family: times new roman;"> </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col col-5">
-                            <div>
-                                <div class="row">
-                                    <div class="col col-5">
-                                        <h4 style="text-align: right;font-family: times new roman;"> </h4>
-                                    </div>
-                                    <div class="col">
-                                        <h4 style="text-align: left;font-family: times new roman;"> </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-5">
-                            <div>
-                                <div class="row">
-                                    <div class="col col-2">
-                                        <h4 style="text-align: right;font-family: times new roman;"> </h4>
-                                    </div>
-                                    <div class="col col-5">
-                                        <h4 style="text-align: left;font-family: times new roman;"> </h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
 </body>
