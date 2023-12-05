@@ -23,5 +23,5 @@
         <div class="dropdown-menu"><a class="dropdown-item" href="/barangay/schedule">Schedule</a><a class="dropdown-item" href="/barangay/blotter/{{ session("resident.id") }}">Blotter</a><a class="dropdown-item" href="/barangay/certificate">Certificates</a></div>
     </li>
     <li class="nav-item"><a class="nav-link" href="/barangay/news">Annoucements</a></li>
-    <li class="nav-item"><a class="nav-link" href="/barangay/info">Local news</a></li>
+    <li class="nav-item"><a class="nav-link" href="/barangay/info">Local News</a></li>
 </ul>

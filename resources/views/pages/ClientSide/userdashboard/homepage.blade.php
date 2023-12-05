@@ -28,7 +28,7 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active"><img class="w-100 d-block" src="{{ URL::to('images/homepage.jpg') }}" alt="Slide Image"></div>
                         <div class="carousel-item"><img class="w-100 d-block" src="{{ URL::to('images/bg.jpg') }}" alt="Slide Image"></div>
-                        <div class="carousel-item"><img class="w-100 d-block" src="{{ URL::to('images/satellitemap.jpg') }}" alt="Slide Image"></div>
+                        <div class="carousel-item"><img class="w-100 d-block" src="{{ URL::to('images/na1bg.png') }}" alt="Slide Image"></div>
                     </div>
                     <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
                     <ol class="carousel-indicators">
@@ -38,13 +38,12 @@
                     </ol>
                 </div>
             </div>
-            <div class="col-md-6">
-                <p><b>VISION</b></p>An empowered and healthy Naawan in a globally-competitive, ecologically balanced and peaceful Misamis Oriental under a responsive and accountable governance.
-                <p><b>MISSION</b></p>We shall sustain our delivery of services to the fullest of our abilities, harnessing our potentials, and building more meaningful teamwork;
-
-We will hold and promote at all times the principles and policies of the Municipal Government; and
-
-Cognizant of our avowed purpose, we commit ourselves to make Misamis Oriental a challenge to the adventurous, a haven for the travelers, and a real home for the Misamisnon.<br><br></p>
+            <div class="col-md-6 text-justify">
+                <p><b> <center>VISION</center></b></p> An empowered and healthy Naawan in a globally-competitive, ecologically balanced and peaceful Misamis Oriental under a responsive and accountable governance.
+                <p><b><center>MISSION</center></b></p> We shall sustain our delivery of services to the fullest of our abilities, harnessing our potentials, and building more meaningful teamwork; We will hold and promote at all times the principles and policies of the Municipal Government; andCognizant of our avowed purpose, we commit ourselves to make Misamis Oriental a challenge to the adventurous, a haven for the travelers, and a real home for the Misamisnon.
+                <br>
+                <br>
+                </p>
             </div>
         </div>
     </div>
