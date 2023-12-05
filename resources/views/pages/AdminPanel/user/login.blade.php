@@ -24,7 +24,7 @@
     <title>Login</title>
 </head>
 
-<body style="background-image: url({{ URL::asset('images/na1vbg.png') }}); background-repeat: repeat; background-size: cover ">
+<body style="background-image: url({{ URL::asset('images/N1BG.png') }}); background-repeat: repeat; background-size: cover ">
 
     @include('inc.client_nav_login')
 
