@@ -21,7 +21,7 @@
 
     </script>
 
-    <title>Login</title>
+    <title>Sign in</title>
 </head>
 
 <body style="background-image: url({{ URL::asset('images/N1BG.png') }}); background-repeat: repeat ; background-size: 100%">
@@ -38,7 +38,7 @@
                             {{ session()->get("success_register")}}
                         </div>
                         @endif
-                        <h5 class="card-title text-center"><b>Login</b></h5>
+                        <h5 class="card-title text-center"><b>Sign in</b></h5>
                         {{-- form --}}
                         <form class="log-in-form" action="/barangay/login" method="post">
                             @csrf
