@@ -38,7 +38,7 @@
                             {{ session()->get("success_register")}}
                         </div>
                         @endif
-                        <h5 class="card-title text-center"><b>Login</b></h5>
+                        <h5 class="card-title text-center"><b>Sign in</b></h5>
                         {{-- form --}}
                         <form class="log-in-form" action="/barangay/login" method="post">
                             @csrf
