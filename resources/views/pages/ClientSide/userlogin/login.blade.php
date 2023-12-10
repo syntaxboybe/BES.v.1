@@ -21,7 +21,7 @@
 
     </script>
 
-    <title>Login</title>
+    <title>Sign in</title>
 </head>
 
 <body style="background-image: url({{ URL::asset('images/N1BG.png') }}); background-repeat: repeat ; background-size: 100%">
