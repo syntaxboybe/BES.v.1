@@ -17,19 +17,19 @@
 </head>
 
 <body style="margin: 0 0 100px;">
-    <input type="hidden" id = "current_resident" data-id = {{ session("resident.id") }}>
+    <input type="hidden" id="current_resident" data-id={{ session("resident.id") }}>
 
     @include('inc.client_nav')
 
     <section class="contact-clean" style="padding-bottom: 140px;">
-           <!--FORM-->
+        <!--FORM-->
         <form action="/barangay/certificate" method="post">
             @csrf
-            <input hidden  type="text" value="{{ session("resident.id") }}" id="resident_id" name="resident_id">
+            <input hidden type="text" value="{{ session("resident.id") }}" id="resident_id" name="resident_id">
             <h2 class="text-center">Certificate Request Form</h2>
             <label style="font-weight: bold;">Name</label>
             <div class="form-group">
-                <input class="form-control" type="text" name="name" placeholder="Enter Name" >
+                <input class="form-control" type="text" name="name" placeholder="Enter Name">
                 @error('name')
                 <span class="text-danger error_text"> {{ $message }}</span>
                 @enderror
@@ -63,12 +63,12 @@
             <select name="request_type" class="form-control">
 
 
-                    @if(count($certificate ) > 0)
-                    @foreach ($certificate  as $certificate )
-                    <option value="{{  $certificate->certificate_type 	}}" >{{ $certificate->certificate_type 	 }}</option>
-                    @endforeach
-                    @endif
-                </select>
+                @if(count($certificate ) > 0)
+                @foreach ($certificate as $certificate )
+                <option value="{{  $certificate->certificate_type 	}}">{{ $certificate->certificate_type 	 }}</option>
+                @endforeach
+                @endif
+            </select>
 
             <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
         </form>

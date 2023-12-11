@@ -22,7 +22,7 @@
 </head>
 
 <body style="margin: 0 0 100px;">
-    <input type="hidden" id = "current_resident" data-id = {{ session("resident.id") }}>
+    <input type="hidden" id="current_resident" data-id={{ session("resident.id") }}>
 
     @include('inc.client_nav')
 
@@ -41,7 +41,8 @@
 
 
                 {{-- Basic info --}}
-                <h2 style="color: rgb(3, 50, 112); ">Basic Info</h2><hr>
+                <h2 style="color: rgb(3, 50, 112); ">Basic Info</h2>
+                <hr>
                 {{-- 1st row --}}
                 <div class="form-row p-3">
                     <div class="form-group col-md-6">
@@ -70,17 +71,17 @@
 
                     <div class="form-group col-md-5">
                         <label for="resident_accountsetting_birthday">Birthday</label>
-                        <input type="date" id="resident_accountsetting_birthday" name="resident_accountsetting_birthday"  class="form-control ">
+                        <input type="date" id="resident_accountsetting_birthday" name="resident_accountsetting_birthday" class="form-control ">
                     </div>
 
                     <div class="form-group col-md-5">
                         <label for="resident_accountsetting_birthplace">Place of Birth</label>
-                        <input type="text" id="resident_accountsetting_birthplace" name="resident_accountsetting_birthplace"  class="form-control " placeholder="Ex: Poblacion, Naawan">
+                        <input type="text" id="resident_accountsetting_birthplace" name="resident_accountsetting_birthplace" class="form-control " placeholder="Ex: Poblacion, Naawan">
                     </div>
 
                     <div class="form-group col-md-2 pl-2">
                         <label class="row pl-2" for="resident_accountsetting_age">Age </label>
-                        <input type="text" id="resident_accountsetting_age" name="resident_accountsetting_age"  class="form-control " placeholder="Ex: 14">
+                        <input type="text" id="resident_accountsetting_age" name="resident_accountsetting_age" class="form-control " placeholder="Ex: 14">
                     </div>
 
                     <div class="form-group col-md-4">
@@ -92,18 +93,18 @@
                         </select>
                     </div>
 
+                </div>
+                <div class="row" style="margin-left: 0px;margin-right: 0px;">
+                    <div class="col-sm-6">
+                        <label>Religion</label>
+                        <input type="text" class="form-control" name="religion" id="religion" placeholder="Ex: Roman Catholic" value="" required="">
+                        <span id="religion_err" class="text-danger error-text religion_err"></span>
                     </div>
-                            <div class="row" style="margin-left: 0px;margin-right: 0px;">
-                            <div class="col-sm-6" >
-                              <label >Religion</label>
-                              <input type="text" class="form-control" name="religion" id="religion" placeholder="Ex: Roman Catholic" value="" required="">
-                              <span id="religion_err" class="text-danger error-text religion_err"></span>
-                            </div>
                 </div>
 
                 {{-- 3rd row --}}
                 <div class="form-row p-3">
-                    <div class="col-md-6  form-group" >
+                    <div class="col-md-6  form-group">
                         <label for="resident_accountsetting_voterstatus">Voter Status</label>
                         <select class="form-control" id="resident_accountsetting_voterstatus" name="resident_accountsetting_voterstatus">
                             <option value="">-Select Voter Status-</option>
@@ -127,32 +128,32 @@
 
                     <div class="col-md-12 form-group">
                         <label for="resident_accountsetting_citizenship">CitizenShip</label>
-                        <input type="text" id="resident_accountsetting_citizenship" name="resident_accountsetting_citizenship" placeholder="Ex: Filipino"   class="form-control ">
+                        <input type="text" id="resident_accountsetting_citizenship" name="resident_accountsetting_citizenship" placeholder="Ex: Filipino" class="form-control ">
                     </div>
                 </div>
 
                 {{-- 4th row --}}
-                <div class="form-row p-3" >
-                    <div class="col-sm-6 form-group" >
+                <div class="form-row p-3">
+                    <div class="col-sm-6 form-group">
                         <label for="resident_accountsetting_telephone">Telephone</label>
-                        <input type="text" class="form-control"   name="resident_accountsetting_telephone" id="resident_accountsetting_telephone" placeholder="Ex: 123-45-678" maxlength="8">
-                        <span class="text-danger error_text resident_accountsetting_telephone_error" style="text-align:left;font-size:18px;" ></span>
+                        <input type="text" class="form-control" name="resident_accountsetting_telephone" id="resident_accountsetting_telephone" placeholder="Ex: 123-45-678" maxlength="8">
+                        <span class="text-danger error_text resident_accountsetting_telephone_error" style="text-align:left;font-size:18px;"></span>
                     </div>
 
                     <div class="col-sm-6 form-group">
                         <label for="resident_accountsetting_mobile">Mobile</label>
-                        <input type="text" class="form-control" name="resident_accountsetting_mobile" id="resident_accountsetting_mobile"  placeholder="Ex: 09166041823" value="" maxlength="11">
-                        <span class="text-danger error_text resident_accountsetting_mobile_error" style="text-align:left;font-size:18px;" ></span>
+                        <input type="text" class="form-control" name="resident_accountsetting_mobile" id="resident_accountsetting_mobile" placeholder="Ex: 09166041823" value="" maxlength="11">
+                        <span class="text-danger error_text resident_accountsetting_mobile_error" style="text-align:left;font-size:18px;"></span>
                     </div>
 
                     <div class="col-sm-6 form-group">
                         <label for="resident_accountsetting_address_1">Address 1 </label>
-                        <textarea id="resident_accountsetting_address_1" name="resident_accountsetting_address_1" placeholder="Ex: Poblacion Naawan, Misamis Oriental"  class="form-control " rows="2" style="resize: none;"></textarea>
+                        <textarea id="resident_accountsetting_address_1" name="resident_accountsetting_address_1" placeholder="Ex: Poblacion Naawan, Misamis Oriental" class="form-control " rows="2" style="resize: none;"></textarea>
                     </div>
 
                     <div class="col-sm-6 form-group">
                         <label for="resident_accountsetting_address_2">Address 2</label>
-                        <textarea type="textbox" id="resident_accountsetting_address_2" name="resident_accountsetting_address_2" placeholder="Ex: Maputi Naawan, Misamis Oriental"  class="form-control " rows="2" style="resize: none;"></textarea>
+                        <textarea type="textbox" id="resident_accountsetting_address_2" name="resident_accountsetting_address_2" placeholder="Ex: Maputi Naawan, Misamis Oriental" class="form-control " rows="2" style="resize: none;"></textarea>
                     </div>
 
                     <div class="col-md-12 form-group">
@@ -161,7 +162,7 @@
                             <option value="">-Select Area-</option>
                             @if(count($area_setting) > 0)
                             @foreach ($area_setting as $area_setting)
-                            <option value="{{  $area_setting->area }}" >{{ $area_setting->area }}</option>
+                            <option value="{{  $area_setting->area }}">{{ $area_setting->area }}</option>
 
                             @endforeach
                             @endif
@@ -174,7 +175,8 @@
 
             <div class="rounded shadow-lg border border-secondary p-4 mt-5" style="font-size: 20px">
                 {{-- Parents/Guardians/Spouse --}}
-                <h2 style="color: rgb(3, 50, 112)">Parents/Guardians/Spouse</h2><hr>
+                <h2 style="color: rgb(3, 50, 112)">Parents/Guardians/Spouse</h2>
+                <hr>
 
                 {{-- 1st row --}}
                 <div class="form-row p-3">
@@ -198,51 +200,53 @@
 
             <div class="rounded shadow-lg border border-secondary p-4 mt-5" style="font-size: 20px">
                 {{-- Social Welfare Services --}}
-                <h2 style="color: rgb(3, 50, 112)"></h2><hr>
+                <h2 style="color: rgb(3, 50, 112)"></h2>
+                <hr>
 
                 <div class="col-sm-6">
-                           <div class="item form-group">
-                           <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Type of House
-                              <input type="text" class="form-control" name="Type of House" id="Type of House" placeholder="Ex: Concrete" value="" required="">
-                              <span id="Type of House_err" class="text-danger error-text Type of House_err"></span>
-                            </div>
-                            <div class="item form-group">
-                           <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Water System
-                              <input type="text" class="form-control" name="Water System" id="Water System" placeholder="Ex: Faucet" value="" required="">
-                              <span id="Water System_err" class="text-danger error-text Water System_err"></span>
-                          </div>
+                    <div class="item form-group">
+                        <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Type of House
+                            <input type="text" class="form-control" name="Type of House" id="Type of House" placeholder="Ex: Concrete" value="" required="">
+                            <span id="Type of House_err" class="text-danger error-text Type of House_err"></span>
+                    </div>
+                    <div class="item form-group">
+                        <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Water System
+                            <input type="text" class="form-control" name="Water System" id="Water System" placeholder="Ex: Faucet" value="" required="">
+                            <span id="Water System_err" class="text-danger error-text Water System_err"></span>
+                    </div>
 
                 </div>
             </div>
 
             <div class="rounded shadow-lg border border-secondary p-4 mt-5" style="font-size: 20px">
                 {{-- Account --}}
-                <h2 style="color: rgb(3, 50, 112)">Account</h2><hr>
+                <h2 style="color: rgb(3, 50, 112)">Account</h2>
+                <hr>
 
                 <div class="form-row p-3">
                     <div class="col-md-12 form-group">
                         <label for="resident_accountsetting_username">Username</label>
                         <input type="text" id="resident_accountsetting_username" name="resident_accountsetting_username" value="" placeholder="Enter username" class="form-control">
 
-                        <span class="text-danger error_text resident_accountsetting_username_error" style="text-align:left;font-size:18px;" ></span>
+                        <span class="text-danger error_text resident_accountsetting_username_error" style="text-align:left;font-size:18px;"></span>
                     </div>
 
                     <div class="col-md-12 form-group">
                         <label for="resident_accountsetting_email">Email</label>
-                        <input type="email" id="resident_accountsetting_email" name="resident_accountsetting_email"  placeholder="Ex: boibee@gmail.com" class="form-control">
-                        <span class="text-danger error_text resident_accountsetting_email_error" style="text-align:left;font-size:18px;" ></span>
+                        <input type="email" id="resident_accountsetting_email" name="resident_accountsetting_email" placeholder="Ex: boibee@gmail.com" class="form-control">
+                        <span class="text-danger error_text resident_accountsetting_email_error" style="text-align:left;font-size:18px;"></span>
                     </div>
 
                     <div class="col-md-12 form-group">
                         <label for="resident_accountsetting_newpassword">New password</label>
-                        <input type="password" id="resident_accountsetting_newpassword" name="resident_accountsetting_newpassword"  placeholder="Enter new password" class="form-control" minlength="8">
-                        <span class="text-danger error_text resident_accountsetting_newpassword_error" style="text-align:left;font-size:18px;" ></span>
+                        <input type="password" id="resident_accountsetting_newpassword" name="resident_accountsetting_newpassword" placeholder="Enter new password" class="form-control" minlength="8">
+                        <span class="text-danger error_text resident_accountsetting_newpassword_error" style="text-align:left;font-size:18px;"></span>
                     </div>
 
                     <div class="col-md-12 form-group">
                         <label for="resident_accountsetting_newpassword_confirmation">Confirm new password</label>
-                        <input type="password" id="resident_accountsetting_newpassword_confirmation" name="resident_accountsetting_newpassword_confirmation"  placeholder="Confirm your password" class="form-control" disabled>
-                        <span class="text-danger error_text resident_accountsetting_newpassword_confirmation_error" style="text-align:left;font-size:18px;" ></span>
+                        <input type="password" id="resident_accountsetting_newpassword_confirmation" name="resident_accountsetting_newpassword_confirmation" placeholder="Confirm your password" class="form-control" disabled>
+                        <span class="text-danger error_text resident_accountsetting_newpassword_confirmation_error" style="text-align:left;font-size:18px;"></span>
                     </div>
                 </div>
             </div>
@@ -250,12 +254,13 @@
             {{-- confirmation --}}
             <div class="rounded shadow-lg border border-secondary p-4 mt-5" style="font-size: 30px">
                 <div class="form-row  justify-content-around">
-                    <h2 style="color: rgb(3, 50, 112)" class="col-12">Confirmation</h2><hr>
+                    <h2 style="color: rgb(3, 50, 112)" class="col-12">Confirmation</h2>
+                    <hr>
                     <input type="password" class="form-control col-8" id="resident_accountsetting_password" name="resident_accountsetting_password" placeholder="Enter password to save changes">
                     <input type="submit" class="btn btn-success col-2" id="resident_accountsetting_submit" name="resident_accountsetting_submit" value="Save Changes">
                 </div>
                 <div class="form-row  justify-content-around">
-                    <span class="text-danger error_text resident_accountsetting_password_error col-8" style="text-align:left;font-size:18px;" ></span>
+                    <span class="text-danger error_text resident_accountsetting_password_error col-8" style="text-align:left;font-size:18px;"></span>
                     <div class="col-2"></div>
                 </div>
 
@@ -300,9 +305,7 @@
     </footer>
 
     <script type="text/javascript">
-
-
-       $(function() {
+        $(function() {
             //Global Varibles
             var current_id = $("#current_resident").data("id");
             showUserInfo(current_id);
@@ -311,13 +314,13 @@
 
             //Ajax
             $.ajaxSetup({
-               headers: {
-                  'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-               }
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
             });
 
-            function showUserInfo(id){
-               $.get('/barangay' +'/' + id +'/edit', function (data) {
+            function showUserInfo(id) {
+                $.get('/barangay' + '/' + id + '/edit', function(data) {
                     //Basic Info
                     $("#resident_accountsetting_firstname").val(data.firstname);
                     $("#resident_accountsetting_lastname").val(data.lastname);
@@ -356,55 +359,53 @@
                     //Account
                     $("#resident_accountsetting_username").val("{{ session('resident.username') }}");
                     $("#resident_accountsetting_email").val(data.email);
-               })
+                })
             }
 
-            $("#resident_accountsetting_newpassword").on("blur",  function() {
+            $("#resident_accountsetting_newpassword").on("blur", function() {
 
-                if( $("#resident_accountsetting_newpassword").val() != null){
+                if ($("#resident_accountsetting_newpassword").val() != null) {
                     $("#resident_accountsetting_newpassword_confirmation").removeAttr("disabled");
 
                 }
 
-                if( $("#resident_accountsetting_newpassword").val() == ""){
+                if ($("#resident_accountsetting_newpassword").val() == "") {
                     $("#resident_accountsetting_newpassword_confirmation").attr('disabled', 'disabled');
                 }
 
             });
-            $("#resident_accountsetting_form").on('submit', function (e) {
-               e.preventDefault();
+            $("#resident_accountsetting_form").on('submit', function(e) {
+                e.preventDefault();
 
-               $.ajax({
-                  type:"POST",
-                  url:"{{ route('client_accountsetting_check') }}",
-                  data: $("#resident_accountsetting_form").serialize(),
-                  dataType:"json",
-                  beforeSend:function(){
-                     $(document).find('span.error_text').text('');
-                  },
-                  success: function (data) {
-                     if(data.status == 0){
-                        $.each(data.error, function(prefix, val){
-                           $('span.'+prefix+"_error").text(val[0]);
-                        });
-                     }
-                     else{
-                        window.scrollTo(0, 0);
-                        $("#success_msg").text(data.msg);
-                        $("#success_msg").show();
-                        showUserInfo(current_id);
-                        $("#resident_accountsetting_form")[0].reset();
-                        $("#resident_accountsetting_newpassword_confirmation").attr('disabled', 'disabled');
-                        $("#navbar-firstname").html('<i class="fa fa-user" style="margin-right: 5px;"></i>' + data.firstname);
-                        $(document).find('span.error_text').text("");
-                     }
-                  }
-               });
+                $.ajax({
+                    type: "POST",
+                    url: "{{ route('client_accountsetting_check') }}",
+                    data: $("#resident_accountsetting_form").serialize(),
+                    dataType: "json",
+                    beforeSend: function() {
+                        $(document).find('span.error_text').text('');
+                    },
+                    success: function(data) {
+                        if (data.status == 0) {
+                            $.each(data.error, function(prefix, val) {
+                                $('span.' + prefix + "_error").text(val[0]);
+                            });
+                        } else {
+                            window.scrollTo(0, 0);
+                            $("#success_msg").text(data.msg);
+                            $("#success_msg").show();
+                            showUserInfo(current_id);
+                            $("#resident_accountsetting_form")[0].reset();
+                            $("#resident_accountsetting_newpassword_confirmation").attr('disabled', 'disabled');
+                            $("#navbar-firstname").html('<i class="fa fa-user" style="margin-right: 5px;"></i>' + data.firstname);
+                            $(document).find('span.error_text').text("");
+                        }
+                    }
+                });
 
             });
 
-       }) // end of ready function
-
+        }) // end of ready function
     </script>
 </body>
 
@@ -424,4 +425,5 @@
 <!--pagination-->
 <script type="text/javascript" src="{{ URL::asset('js/pagination.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('js/pagination.min.js') }}"></script>
+
 </html>
