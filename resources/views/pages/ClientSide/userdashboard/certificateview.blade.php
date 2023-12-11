@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en" style="position: relative;min-height: 100%;">
 
@@ -18,150 +16,150 @@
 </head>
 
 <body style="margin: 0 0 100px;">
-    <input type="hidden" id = "current_resident" data-id = {{ session("resident.id") }}>
+    <input type="hidden" id="current_resident" data-id={{ session("resident.id") }}>
 
     @include('inc.client_nav')
 
     <div style="margin: 20px;">
-        
-            <section class="contact-clean text-center" style="padding-bottom: 140px;">
-                <div class="container container-smaller">
-                    <div class="row">
-                      <div class="col-lg-10 col-lg-offset-1" style="margin-top:20px; text-align: right">
+
+        <section class="contact-clean text-center" style="padding-bottom: 140px;">
+            <div class="container container-smaller">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1" style="margin-top:20px; text-align: right">
                         <div class="btn-group mb-4">
-                          <a href="/barangay/schedule" class="btn btn-success">Back</a>
+                            <a href="/barangay/schedule" class="btn btn-success">Back</a>
                         </div>
-                      </div>
                     </div>
+                </div>
 
 
 
 
-                    <div class="row">
-                      <div class="col-lg-10 col-lg-offset-1">
-                          <div class="invoice">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <div class="invoice">
 
 
 
 
                             <div class="row">
-                            <div class="column-right text-right" >
-                               <img style="width: 120px" id="logo1create1" class="logo1create1" src="http://{{  request()->getHost()}}{{  Storage::url($layout->logo_1 ?? 'Logo not set')  }}">
-                            </div>
-                           
-                            <div class="column-center text-center" >
-                               <p id="heading2" style='font-size:19px;font-family: "Times New Roman, Times, serif";'> REPUBLIC OF THE PHILIPPINES<br>
-                                  {{ $layout->municipality ?? 'MUNICIPAL OF NAAWAN'  }}<br>
-                                  {{ $layout->province ?? 'MISAMIS ORIENTAL'  }}<br>
-                                  <b ><u>   {{ $layout->barangay ?? 'Barangay Poblacion'  }}</u></b>
-                               </p>
-                               <div id="punong2" style='font-size:22px;font-family: "Times New Roman, Times, serif";padding:0px'><b>   {{ $layout->office ?? 'Office of Barangay Chairman'  }}</b>
-                               </div>
-                               <div style='font-size:24px;font-family: "Times New Roman, Times, serif";padding:0px'><u><b>{{ $content->certificate_name ?? 'Certificate of Indigency'}}</b></u>
-                               </div>
-                            </div>
-                            
-                         </div>
-                         <div class="box">
-                            <img  id="logobackground2" class="background-opacity text-center" style="height: 450px;margin-left: 30%;margin-top: 40px" src="http://{{  request()->getHost()}}{{  Storage::url($layout->logo_2 ?? 'background logo not set')  }}">
-                            <div class="row text">
-                               <div class="column-body-left text-center " >
-                                  <br>
-                                  <div class="form-group" style='font-size:16px;font-family: "Times New Roman, Times, serif;'>
-                                 
-                                  </div>
-                               </div>
-                               <div class="column-body-right text-left " style="padding-left:5px">
-                                  <br>
-                                  <br>
-                                  <br>
-                                  <br>
-                                  <span style=" font-size: 17px ; font-family: Arial, Helvetica, sans-serif;"><b>TO WHOM MAY IT CONCERN:</b></span>
-                                  <br>
-                                  <br>
-                                  <br>
-                                  <div style="text-align: justify;text-indent: 15px;font-size: 17px ; font-family: Arial, Helvetica, sans-serif;">
-                                    <span style=" text-align: justify;text-justify: inter-word; ">
-                                       This is to certify that, {{ $request_list->name }}, {{ $request_list->age }} years old, {{ $request_list->gender }} is a resident of <span id="firstcontent">{{ $content->content_1 ?? 'Paragraph not set' }}</span>
-                                    </span>
+                                <div class="column-right text-right">
+                                    <img style="width: 120px" id="logo1create1" class="logo1create1" src="http://{{  request()->getHost()}}{{  Storage::url($layout->logo_1 ?? 'Logo not set')  }}">
                                 </div>
 
-                                    <br>
-                                    <div style="text-align: justify;text-indent: 15px;font-size: 17px ; font-family: Arial, Helvetica, sans-serif;">
-                                    <span  id="secondcontent">
-                                        {{ $content->content_1 ?? 'Paragraph not set' }}
-                                    </span>
+                                <div class="column-center text-center">
+                                    <p id="heading2" style='font-size:19px;font-family: "Times New Roman, Times, serif";'> REPUBLIC OF THE PHILIPPINES<br>
+                                        {{ $layout->municipality ?? 'MUNICIPAL OF NAAWAN'  }}<br>
+                                        {{ $layout->province ?? 'MISAMIS ORIENTAL'  }}<br>
+                                        <b><u> {{ $layout->barangay ?? 'Barangay Poblacion'  }}</u></b>
+                                    </p>
+                                    <div id="punong2" style='font-size:22px;font-family: "Times New Roman, Times, serif";padding:0px'><b> {{ $layout->office ?? 'Office of Barangay Chairman'  }}</b>
                                     </div>
+                                    <div style='font-size:24px;font-family: "Times New Roman, Times, serif";padding:0px'><u><b>{{ $content->certificate_name ?? 'Certificate of Indigency'}}</b></u>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="box">
+                                <img id="logobackground2" class="background-opacity text-center" style="height: 450px;margin-left: 30%;margin-top: 40px" src="http://{{  request()->getHost()}}{{  Storage::url($layout->logo_2 ?? 'background logo not set')  }}">
+                                <div class="row text">
+                                    <div class="column-body-left text-center ">
                                         <br>
+                                        <div class="form-group" style='font-size:16px;font-family: "Times New Roman, Times, serif;'>
 
-                                    <div  style="text-align: justify;text-indent: 15px;font-size: 17px ; font-family: Arial, Helvetica, sans-serif;">
-                                        <span >
-                                          Issued this  {{ Carbon\Carbon::parse($request_list->created_at)->format('d') }} day of  {{ Carbon\Carbon::parse($request_list->created_at)->format('F, Y ') }} at the <span id="thirdcontent">{{ $content->content_1 ?? 'Paragraph not set' }}</span>
-                                        </span>
-                                  </div>
-                                  <br>
-                                  <br>
-                                  <br>
-                                  <div class="row">
-                                     <br>
-                                     <br>
-                                     <div class="column-inside-left">
-
-
-                                          <div style="width: 100%; display: table;">
-                                            <div style="display: table-row; height: 100px;">
-                                                <div style="width: 35%; display: table-cell;">
-                                                 (Signature of the Requestor)
-
-
-                                                </div>
-                                                <div style="display: table-cell;" >
-                                                
-                                                </div>
-                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="column-body-right text-left " style="padding-left:5px">
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <span style=" font-size: 17px ; font-family: Arial, Helvetica, sans-serif;"><b>TO WHOM MAY IT CONCERN:</b></span>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <div style="text-align: justify;text-indent: 15px;font-size: 17px ; font-family: Arial, Helvetica, sans-serif;">
+                                            <span style=" text-align: justify;text-justify: inter-word; ">
+                                                This is to certify that, {{ $request_list->name }}, {{ $request_list->age }} years old, {{ $request_list->gender }} is a resident of <span id="firstcontent">{{ $content->content_1 ?? 'Paragraph not set' }}</span>
+                                            </span>
                                         </div>
 
-                                    </div>
-                                     <div class="text-center column-inside-right " style="font-size: 17px ; font-family: Arial, Helvetica, sans-serif;  ">
-                                        <span>APPROVE BY:<br></span>
-                                        @if(count($approve))
-                                        @foreach ($approve as $approve)
-                                        <span class="text-center" style="text-transform: uppercase;
+                                        <br>
+                                        <div style="text-align: justify;text-indent: 15px;font-size: 17px ; font-family: Arial, Helvetica, sans-serif;">
+                                            <span id="secondcontent">
+                                                {{ $content->content_1 ?? 'Paragraph not set' }}
+                                            </span>
+                                        </div>
+                                        <br>
+
+                                        <div style="text-align: justify;text-indent: 15px;font-size: 17px ; font-family: Arial, Helvetica, sans-serif;">
+                                            <span>
+                                                Issued this {{ Carbon\Carbon::parse($request_list->created_at)->format('d') }} day of {{ Carbon\Carbon::parse($request_list->created_at)->format('F, Y ') }} at the <span id="thirdcontent">{{ $content->content_1 ?? 'Paragraph not set' }}</span>
+                                            </span>
+                                        </div>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <div class="row">
+                                            <br>
+                                            <br>
+                                            <div class="column-inside-left">
+
+
+                                                <div style="width: 100%; display: table;">
+                                                    <div style="display: table-row; height: 100px;">
+                                                        <div style="width: 35%; display: table-cell;">
+                                                            (Signature of the Requestor)
+
+
+                                                        </div>
+                                                        <div style="display: table-cell;">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <div class="text-center column-inside-right " style="font-size: 17px ; font-family: Arial, Helvetica, sans-serif;  ">
+                                                <span>APPROVE BY:<br></span>
+                                                @if(count($approve))
+                                                @foreach ($approve as $approve)
+                                                <span class="text-center" style="text-transform: uppercase;
                                            text-align:center">{{ $approve->name }}</span><br><span>{{ $approve->position }}<span>
-                                        @endforeach
-                                        @endif
-                                     </div>
-                                  </div>
-                                  <footer><span><i>Not valid without dry seal</i></span></footer>
-                               </div>
+                                                        @endforeach
+                                                        @endif
+                                            </div>
+                                        </div>
+                                        <footer><span><i>Not valid without dry seal</i></span></footer>
+                                    </div>
+                                </div>
                             </div>
-                         </div>
-
-
-
-                            </div>
-
-
-
-
-
-
 
 
 
                         </div>
-                      </div>
+
+
+
+
 
 
 
 
 
                     </div>
+                </div>
 
 
 
 
-         </section>
+
+            </div>
+
+
+
+
+        </section>
 
 
 
@@ -176,12 +174,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-4 col-md-3 item">
-                    
+
                 </div>
-               
-                    <p class="copyright">Barangay E-service System © 2023</p>
-                </div>
+
+                <p class="copyright">Barangay E-service System © 2023</p>
             </div>
+        </div>
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -200,18 +198,23 @@
     .page-break {
         page-break-after: always;
     }
+
     .bg-grey {
         background: #F3F3F3;
     }
+
     .text-right {
         text-align: right;
     }
+
     .w-full {
         width: 100%;
     }
+
     .small-width {
         width: 15%;
     }
+
     .invoice {
         background: white;
         border: 1px solid #CCC;
@@ -224,114 +227,134 @@
 
 
     * {
-      box-sizing: border-box;
+        box-sizing: border-box;
     }
 
     /* Create two equal columns that floats next to each other */
     .column-left {
-      float: left;
-      width: 25%;
-      padding: 0px;
-      height: 200px; /* Should be removed. Only for demonstration */
+        float: left;
+        width: 25%;
+        padding: 0px;
+        height: 200px;
+        /* Should be removed. Only for demonstration */
     }
+
     .column-center {
-      float: left;
-      width: 50%;
-      padding: 0px;
-      height: 200px; /* Should be removed. Only for demonstration */
+        float: left;
+        width: 50%;
+        padding: 0px;
+        height: 200px;
+        /* Should be removed. Only for demonstration */
     }
+
     .column-right {
-      float: left;
-      width: 25%;
-      padding: 0px;
-      height: 200px; /* Should be removed. Only for demonstration */
+        float: left;
+        width: 25%;
+        padding: 0px;
+        height: 200px;
+        /* Should be removed. Only for demonstration */
     }
 
     /* Clear floats after the columns */
     .row:after {
-      content: "";
-      display: table;
-      clear: both;
+        content: "";
+        display: table;
+        clear: both;
     }
 
 
 
 
-.box{
-position: relative;
-/* Make the width of box same as image */
-}
-.box .text{
+    .box {
+        position: relative;
+        /* Make the width of box same as image */
+    }
 
-z-index: 999;
-margin: 0 auto;
-left: 0;
-right: 0;
-top: 0%; /* Adjust this value to move the positioned div up and down */
-text-align: center;
-width: 100%; /* Set the width of the positioned div */
-}
-.background-opacity {
-opacity: 0.1;
-position:absolute;
-display: block;
-margin-left: auto;
-margin-right: auto;
+    .box .text {
 
-max-width: 100%;
-}
-* {
-box-sizing: border-box;
-}
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 0%;
+        /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 100%;
+        /* Set the width of the positioned div */
+    }
 
-/* Create two equal columns that floats next to each other */
-.column-left {
-float: left;
-width: 20%;
-padding: 0px;
-height: 190px; /* Should be removed. Only for demonstration */
-}
-.column-center {
-float: left;
-width:60%;
-padding: 0px;
-height: 190px; /* Should be removed. Only for demonstration */
-}
-.column-right {
-float: left;
-width: 20%;
+    .background-opacity {
+        opacity: 0.1;
+        position: absolute;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 
-height: 190px; /* Should be removed. Only for demonstration */
-}
-.column-body-left {
-float: left;
-width: 33%;
+        max-width: 100%;
+    }
 
-height: 818px; /* Should be removed. Only for demonstration */
-}
-.column-body-right {
-float: left;
-width: 61%;
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column-left {
+        float: left;
+        width: 20%;
+        padding: 0px;
+        height: 190px;
+        /* Should be removed. Only for demonstration */
+    }
+
+    .column-center {
+        float: left;
+        width: 60%;
+        padding: 0px;
+        height: 190px;
+        /* Should be removed. Only for demonstration */
+    }
+
+    .column-right {
+        float: left;
+        width: 20%;
+
+        height: 190px;
+        /* Should be removed. Only for demonstration */
+    }
+
+    .column-body-left {
+        float: left;
+        width: 33%;
+
+        height: 818px;
+        /* Should be removed. Only for demonstration */
+    }
+
+    .column-body-right {
+        float: left;
+        width: 61%;
 
 
-height: 818px; /* 818pxShould be removed. Only for demonstration */
-}
+        height: 818px;
+        /* 818pxShould be removed. Only for demonstration */
+    }
 
-.column-inside-left {
-float: left;
-width: 60%;
+    .column-inside-left {
+        float: left;
+        width: 60%;
 
-}
-.column-inside-right {
-float: right;
-width: 40%;
+    }
 
-}
-/* Clear floats after the columns */
-.row:after {
-content: "";
-display: table;
-clear: both;
-}
+    .column-inside-right {
+        float: right;
+        width: 40%;
 
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 </style>
