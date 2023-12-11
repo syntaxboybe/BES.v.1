@@ -76,8 +76,8 @@
                         <li><a href="#"></a></li>
                     </ul>
                 </div>
-                <div class=""><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a>
-                    <p class="copyright"><b> Barangay E-service System © 2023 </b></p>
+                <div class="justify-content-center"><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a>
+                    <p class="copyright"><strong><center>© 2023 Barangay E-service System</center></strong></p>
                 </div>
             </div>
         </div>

@@ -298,7 +298,7 @@
                     </ul>
                 </div>
                 <div class=""><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a><a href="#"><i class=""></i></a>
-                    <p class="copyright">Barangay E-service System © 2023</p>
+                    <p class="copyright"><strong><center>© 2023 Barangay E-service System</center></strong></p>
                 </div>
             </div>
         </div>
