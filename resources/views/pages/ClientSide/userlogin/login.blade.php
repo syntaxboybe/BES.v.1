@@ -67,8 +67,6 @@
                         </form>
                         {{-- end form --}}
 
-
-                        <br><a href="/barangay/register"><b>Can't Sign In? Create Account</b></a>
                         <br><a href="/login"><b>Go to System Login >> </b></a>
                     </div>
                 </div>
