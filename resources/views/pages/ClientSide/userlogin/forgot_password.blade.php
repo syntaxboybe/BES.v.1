@@ -24,7 +24,7 @@
     <title>Forgot Password</title>
 </head>
 
-<body style="background-image: url({{ URL::asset('images/background.png') }}); background-repeat:no-repeat; background-size: cover ">
+<body style="background-image: url({{ URL::asset('images/N1BG.png') }}); background-repeat:no-repeat; background-size: cover ">
 
     @include('inc.client_nav_login')
 
@@ -39,7 +39,7 @@
                         </div>
                         @endif
                         <h5 class="card-title text-center"><b>Message</b></h5>
-                        <p>Please contact the barangay to have a new password. Sorry for the inconvenience.</p>
+                        <p>Please contact the barangay officials or the secretary to have a new password. Sorry for the inconvenience.</p>
                         <br><a href="/barangay/login"><b>Back to login page></b></a>
                     </div>
                 </div>

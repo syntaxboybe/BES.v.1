@@ -219,8 +219,10 @@
                            <div class="mb-3">
                               <label for="create_account_form_type">Select user type:</label>
                               <select class="form-control" id="create_account_form_type" name="create_account_form_type">
+                                <option>Admin</option>
                                 <option>Chairman</option>
                                 <option>Secretary</option>
+                                <option>Resident</option>
                               </select>
                            </div>
 
