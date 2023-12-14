@@ -18,7 +18,7 @@
                 <div class="col-sm-6">
                     <div class="col-sm-12 overflow-auto pt-3 ">
                         <div class="col-sm-12 text-light pl-2 pt-2 pb-1  border-bot float-left bg-dark">
-                            <p style="margin-bottom: 0px;"> <b>UNPAID RESIDENT </b></p>
+                            <p style="margin-bottom: 0px;"> <b>UNPAID CERTIFICATE </b></p>
                         </div>
                         <table class="dataTables_info table datatable-element  requesttable table-striped jambo_table bulk_action text-center border">
                             <thead>
@@ -35,7 +35,7 @@
                 <div class="col-sm-6">
                     <div class="col-sm-12 overflow-auto pt-3 ">
                         <div class="col-sm-12 text-light pl-2 pt-2 pb-1  border-bot float-left bg-dark">
-                            <p style="margin-bottom: 0px;"> <b>PAID RESIDENT </b></p>
+                            <p style="margin-bottom: 0px;"> <b>PAID CERTIFICATE </b></p>
                         </div>
                         <table class="dataTables_info table datatable-element  requesttable-paid table-striped jambo_table bulk_action text-center border">
                             <thead>

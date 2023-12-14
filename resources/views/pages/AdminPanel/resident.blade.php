@@ -36,12 +36,12 @@
                                         <div class="row" style="margin-left: 0px;margin-right: 0px;">
                                             <div class="col-sm-6">
                                                 <label>Last Name</label>
-                                                <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Ex: Anaye" value="" required="">
+                                                <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Ex: Anaye">
                                                 <span id="lastname_err" class="text-danger error-text lastname_err"></span>
                                             </div>
                                             <div class="col-sm-6 ">
                                                 <label>First Name</label>
-                                                <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Ex: Boybe" value="" required="">
+                                                <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Ex: Boybe">
                                                 <span id="firstname_err" class="text-danger error-text firstname_err"></span>
                                             </div>
                                         </div>
@@ -49,12 +49,12 @@
                                         <div class="row" style="margin-left: 0px;margin-right: 0px;">
                                             <div class="col-sm-6">
                                                 <label>Middle Name</label>
-                                                <input type="text" class="form-control" name="middlename" id="middlename" placeholder="Ex: Hitsuraan" value="" required="">
+                                                <input type="text" class="form-control" name="middlename" id="middlename" placeholder="Ex: Hitsuraan">
                                                 <span id="middlename_err" class="text-danger error-text middlename_err"></span>
                                             </div>
                                             <div class="col-sm-6 ">
                                                 <label>Alias</label>
-                                                <input type="text" class="form-control" name="alias" id="alias" placeholder="Ex: boybe" value="" required="">
+                                                <input type="text" class="form-control" name="alias" id="alias" placeholder="Ex: boybe">
                                                 <span id="alias_err" class="text-danger error-text alias_err"></span>
                                             </div>
                                         </div>
@@ -65,8 +65,8 @@
 
                                         <div class="row" style="margin-left: 0px;margin-right: 0px;">
                                             <div class="col-sm-6">
-                                                <label>Birthday</label>
-                                                <input type="date" id="birthday" name="birthday" required="required" class="form-control ">
+                                                <label>Birthdate</label>
+                                                <input type="date" id="birthday" name="birthday"  class="form-control ">
                                                 <span id="birthday_err" class="text-danger error-text birthday_err"></span>
                                             </div>
                                             <div class="col-sm-6 ">
@@ -93,7 +93,7 @@
                                             <label class="col-form-label col-md-5 col-sm-5 label-align" for="first-name">Birth of Place
                                             </label>
                                             <div class="col-md-12 col-sm-12 ">
-                                                <input type="text" id="birthplace" name="birthplace" placeholder="Ex: Burnay, Gitagum" required="required" class="form-control ">
+                                                <input type="text" id="birthplace" name="birthplace" placeholder="Ex: Burnay, Gitagum" class="form-control ">
                                                 <span id="birthplace_err" class="text-danger error-text birthplace_err"></span>
                                             </div>
                                         </div>
@@ -141,7 +141,7 @@
                                             <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">CitizenShip
                                             </label>
                                             <div class="col-md-12 col-sm-12 ">
-                                                <input type="text" id="citizenship" name="citizenship" placeholder="Ex: Filipino" required="required" class="form-control ">
+                                                <input type="text" id="citizenship" name="citizenship" placeholder="Ex: Filipino" class="form-control ">
                                                 <span id="citizenship_err" class="text-danger error-text citizenship_err"></span>
                                             </div>
                                         </div>
@@ -152,12 +152,12 @@
                                         <div class="row" style="margin-left: 0px;margin-right: 0px;">
                                             <div class="col-sm-6">
                                                 <label>Telephone</label>
-                                                <input type="text" class="form-control" name="telephone" id="telephone" placeholder="Ex: 123-45-678" value="" required="">
+                                                <input type="text" class="form-control" name="telephone" id="telephone" placeholder="Ex: 123-45-678">
                                                 <span id="telephone_err" class="text-danger error-text telephone_err"></span>
                                             </div>
                                             <div class="col-sm-6 ">
                                                 <label>Mobile</label>
-                                                <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Ex: 09166041823" value="" required="">
+                                                <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Ex: 09166041823">
                                                 <span id="mobile_err" class="text-danger error-text mobile_err"></span>
                                             </div>
                                         </div>
@@ -187,7 +187,7 @@
                                         <div class="row" style="margin-left: 0px;margin-right: 0px;">
                                             <div class="col-sm-6">
                                                 <label>Religion</label>
-                                                <input type="text" class="form-control" name="religion" id="religion" placeholder="Ex: Roman Catholic" value="" required="">
+                                                <input type="text" class="form-control" name="religion" id="religion" placeholder="Ex: Roman Catholic">
                                                 <span id="religion_err" class="text-danger error-text religion_err"></span>
                                             </div>
                                         </div>
@@ -210,12 +210,12 @@
                                         <div class="row" style="margin-left: 0px;margin-right: 0px;">
                                             <div class="col-sm-6">
                                                 <label>PAG-IBIG</label>
-                                                <input type="text" class="form-control" onkeypress="return isNumberKey(event)" name="PAG_IBIG" id="PAG_IBIG" placeholder="Ex: 1234-5678-9101" maxlength="14" value="">
+                                                <input type="text" class="form-control" onkeypress="return isNumberKey(event)" name="PAG_IBIG" id="PAG_IBIG" placeholder="Ex: 1234-5678-9101" maxlength="14">
                                                 <span id="PAG_IBIG_err" class="text-danger error-text PAG_IBIG_err"></span>
                                             </div>
                                             <div class="col-sm-6 ">
                                                 <label>PHILHEALTH</label>
-                                                <input type="text" class="form-control" onkeypress="return isNumberKey(event)" name="PHILHEALTH" id="PHILHEALTH" placeholder="Ex: 0028-1215160-9" maxlength="14" value="">
+                                                <input type="text" class="form-control" onkeypress="return isNumberKey(event)" name="PHILHEALTH" id="PHILHEALTH" placeholder="Ex: 0028-1215160-9" maxlength="14">
                                                 <span id="PHILHEALTH_err" class="text-danger error-text PHILHEALTH_err"></span>
                                             </div>
                                         </div>
@@ -224,12 +224,12 @@
                                         <div class="row" style="margin-left: 0px;margin-right: 0px;">
                                             <div class="col-sm-6">
                                                 <label>SSS</label>
-                                                <input type="text" class="form-control" onkeypress="return isNumberKey(event)" name="SSS" id="SSS" placeholder="Ex: 04-0751449-0" maxlength="12" value="">
+                                                <input type="text" class="form-control" onkeypress="return isNumberKey(event)" name="SSS" id="SSS" placeholder="Ex: 04-0751449-0" maxlength="12">
                                                 <span id="SSS_err" class="text-danger error-text SSS_err"></span>
                                             </div>
                                             <div class="col-sm-6 ">
                                                 <label>TIN</label>
-                                                <input type="text" class="form-control" onkeypress="return isNumberKey(event)" name="TIN" id="TIN" placeholder="Ex: 123-456-789-000" maxlength="15" value="">
+                                                <input type="text" class="form-control" onkeypress="return isNumberKey(event)" name="TIN" id="TIN" placeholder="Ex: 123-456-789-000" maxlength="15">
                                                 <span id="TIN_err" class="text-danger error-text TIN_err"></span>
                                             </div>
                                         </div>
@@ -244,7 +244,7 @@
                                             <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Spouse
                                             </label>
                                             <div class="col-md-12 col-sm-12 ">
-                                                <input type="text" id="spouse" name="spouse" required="required" placeholder="N/A" class="form-control ">
+                                                <input type="text" id="spouse" name="spouse" placeholder="N/A" class="form-control ">
                                                 <span id="spouse_err" class="text-danger error-text spouse_err"></span>
                                             </div>
                                         </div>
@@ -255,7 +255,7 @@
                                             <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Father
                                             </label>
                                             <div class="col-md-12 col-sm-12 ">
-                                                <input type="text" id="father" name="father" placeholder="N/A" required="required" class="form-control ">
+                                                <input type="text" id="father" name="father" placeholder="N/A" class="form-control ">
                                                 <span id="father_err" class="text-danger error-text father_err"></span>
                                             </div>
                                         </div>
@@ -266,7 +266,7 @@
                                             <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Mother
                                             </label>
                                             <div class="col-md-12 col-sm-12 ">
-                                                <input type="text" id="mother" name="mother" required="required" value="" placeholder="N/A" class="form-control ">
+                                                <input type="text" id="mother" name="mother" value="" placeholder="N/A" class="form-control ">
                                                 <span id="mother_err" class="text-danger error-text mother_err"></span>
                                             </div>
                                         </div>
@@ -277,7 +277,7 @@
                                             <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Address 1
                                             </label>
                                             <div class="col-md-12 col-sm-12 ">
-                                                <input type="text" id="address_1" name="address_1" placeholder="Ex: Zone 6-A Burnay Gitagum, Misamis Oriental 9020" required="required" class="form-control ">
+                                                <input type="text" id="address_1" name="address_1" placeholder="Ex: Zone 6-A Burnay Gitagum, Misamis Oriental 9020" class="form-control ">
                                                 <span id="address_1_err" class="text-danger error-text address_1_err"></span>
 
                                             </div>
@@ -289,7 +289,7 @@
                                             <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Address 2
                                             </label>
                                             <div class="col-md-12 col-sm-12 ">
-                                                <input type="text" id="address_2" name="address_2" placeholder="Ex: Zone 6-A Burnay Gitagum, Misamis Oriental 9020" required="required" class="form-control ">
+                                                <input type="text" id="address_2" name="address_2" placeholder="Ex: Zone 6-A Burnay Gitagum, Misamis Oriental 9020" class="form-control ">
                                                 <span id="address_2_err" class="text-danger error-text address_2_err"></span>
                                             </div>
                                         </div>
@@ -468,13 +468,13 @@
 
                             <div class="row" style="margin-left: 0px;margin-right: 0px;">
                                 <div class="col-sm-6">
-                                    <label>Birthday</label>
-                                    <input type="date" id="birthdayv" name="birthdayv" readonly required="required" class="form-control ">
+                                    <label>Birthdate</label>
+                                    <input type="date" id="birthdayv" name="birthdayv" readonly  class="form-control ">
 
                                 </div>
                                 <div class="col-sm-6 ">
                                     <label>Age</label>
-                                    <input type="text" id="agev" name="agev" readonly required="required" class="form-control ">
+                                    <input type="text" id="agev" name="agev" readonly  class="form-control ">
 
                                 </div>
                             </div>
@@ -529,7 +529,7 @@
                                 <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">CitizenShip
                                 </label>
                                 <div class="col-md-12 col-sm-12 ">
-                                    <input type="text" readonly id="citizenshipv" name="citizenshipv" placeholder="Ex: Filipino" required="required" class="form-control ">
+                                    <input type="text" readonly id="citizenshipv" name="citizenshipv" placeholder="Ex: Filipino"  class="form-control ">
                                 </div>
                             </div>
 

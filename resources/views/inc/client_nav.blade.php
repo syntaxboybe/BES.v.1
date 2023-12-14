@@ -1,6 +1,6 @@
 <header class="header-blue" style="padding-bottom: 0px;">
     <nav class="navbar navbar-primary navbar-expand-md navigation-clean-search">
-        <div class="container-fluid"><a class="navbar-brand" href="/barangay/home" style="font-size: 45px;font-family: Source Sans Pro, sans-serif;"><img src="{{ URL::asset('images/poblacionlogo.png')}}" style="resize: both;width: 100px;margin-right: 30px;"><p class="navbar-brand" id="client_navbar" style="font-size: 45px;">{{ $image->barangay_name ?? 'Barangay Automation Management Integrated System' }}</p></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container-fluid"><a class="navbar-brand" href="/barangay/home" style="font-size: 45px;font-family: Source Sans Pro, sans-serif;"><img src="{{ URL::asset('images/poblacionlogo.png')}}" style="resize: both;width: 100px;margin-right: 30px;"><p class="navbar-brand" id="client_navbar" style="font-size: 45px;">{{ $image->barangay_name ?? 'Brgy. Poblacion Naawan E-service' }}</p></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <form class="form-inline mr-auto" target="_self">
                     <div class="form-group mb-0"><label for="search-field"></label></div>
